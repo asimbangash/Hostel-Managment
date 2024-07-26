@@ -5,16 +5,9 @@ const Booking = require("../models/bookHostel.model");
 const Joi = require("joi");
 const path = require("path");
 const bcrypt = require("bcrypt");
-const { OAuth2Client } = require("google-auth-library");
 const axios = require("axios");
 const nodemailer = require("nodemailer");
 const crypto = require("crypto");
-
-const oAuth2Client = new OAuth2Client({
-  clientId:
-    "'406195407798-ocv778b6cgtauvm88k2kdt9qrp0k5nh1.apps.googleusercontent.com'",
-  clientSecret: "'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'",
-});
 
 const schema = Joi.object({
   name: Joi.string().min(3).max(30).required(),
