@@ -1,0 +1,122 @@
+/* src/App.css */
+.App {
+    text-align: center;
+}
+
+#animation-carousel {
+    position: relative;
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.md\\:h-96 {
+    height: 24rem;
+}
+
+.h-56 {
+    height: 14rem;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.block {
+    display: block;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.top-1\\/2 {
+    top: 50%;
+}
+
+.left-1\\/2 {
+    left: 50%;
+}
+
+.translate-x-1\\/2 {
+    transform: translateX(50%);
+}
+
+.translate-y-1\\/2 {
+    transform: translateY(50%);
+}
+
+.transition-opacity {
+    transition-property: opacity;
+}
+
+.duration-200 {
+    transition-duration: 200ms;
+}
+
+.ease-linear {
+    transition-timing-function: linear;
+}
+
+.opacity-100 {
+    opacity: 1;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.z-30 {
+    z-index: 30;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.group:hover .group-hover\\:bg-white\\/50 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.group:focus .group-focus\\:ring-4 {
+    ring-width: 4px;
+}
+
+.group-focus\\:ring-white {
+    ring-color: white;
+}
+
+.group-focus\\:outline-none {
+    outline: none;
+}
